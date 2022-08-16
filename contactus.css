@@ -1,0 +1,68 @@
+.head {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: "center";
+  }
+
+  #pehla {
+    background-color: #ffffff;
+    height: 100px;
+    margin-right: 50px;
+    margin-top: 55px;
+    float: left;
+    width: 50%;
+  }
+
+  #dusra {
+    background-color: #ffffff;
+    height: 100px;
+    margin-top: 55px;
+    margin-right: 50px;
+    /* float: right; */
+    width: 33.3%;
+  }
+
+  .ab{
+    font-size: 15px;
+  }
+
+  .cnt{
+    height: 50%;
+    height: 110px;
+    color: yellow;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+  }
+
+ .ab{
+  color: rgb(0, 0, 0);
+ }
+
+ #lft {
+  height: 500px;
+  margin-right: 50px;
+  margin-top: 55px;
+  float: left;
+  width: 33.33%;
+}
+
+#rt {
+  background-color: #1f1f1f;
+  height: 350px;
+  margin-top: 55px;
+  margin-right: 0;
+  /* float: right; */
+  width: 33.33%;
+  color: white;
+  font-size: 20px;
+}
+
+.mn {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: "center";
+}

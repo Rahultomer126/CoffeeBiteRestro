@@ -1,0 +1,165 @@
+
+
+
+
+#sidebar1 {
+    background-color: #1f1f1f;
+    height: 500px;
+    margin-right: 50px;
+    margin-top: 55px;
+    float: left;
+    width: 33.33%;
+  }
+
+  #sidebar2 {
+    background-color: #1f1f1f;
+    height: 500px;
+    margin-top: 55px;
+    margin-right: 0;
+    /* float: right; */
+    width: 33.33%;
+  }
+
+  .listMain {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: "center";
+  }
+
+#sidebar1{
+    font-size: 25px;
+    color: #f7f7f7;
+}
+
+#sidebar2{
+    font-size: 25px;
+    color: #f7f7f7;
+}
+
+#label{
+    font-size: 5px;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .col{
+    float: right;
+    width: 50%;
+}
+.st:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .ab:link {
+    color: rgb(0, 184, 0);
+    background-color: transparent;
+    text-decoration: none;
+    text-decoration: underline;
+    font-size: 25px;
+
+  }
+  .ab:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .ab:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .ab:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    height: 540px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  .heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+#id1 {
+  height: 500px;
+  margin-right: 50px;
+  margin-top: 55px;
+  float: left;
+  width: 33.33%;
+}
+
+#rtng {
+  height: 500px;
+  margin-top: 55px;
+  margin-right: 0;
+  /* float: right; */
+  width: 33.33%;
+}
+
+.boxo {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: "center";
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  left: 20px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
